@@ -9,9 +9,8 @@ body {
 header {
     background-color: #ad1212;
     background-size: cover;
-    width: 100%;
-    height: 800%;
-    
+    width: 150%;
+    height: 100%;
     display: flex;
     
 }
@@ -20,31 +19,30 @@ header {
     position: centerss;
     font-family:'Backly Highs', sans-serif;
     color: rgb(255, 255, 255);
-    font-size:large;
+    font-size:x-large;
     text-align: center;
-    margin-left: 40%;
+    margin-left: 28%;
     margin-top: 5%;
 
 }
 .titulo2 {
     font-family: 'SansXHigh', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 80%;
     text-align: center;
     display: flex;
     margin-top: 18%;
-    margin-left: -30%;
+    margin-left: -25%;
     
 }
 ul {
     font-family:'SansXHigh', sans-serif;
-    width: 100%;
     align-items: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color:rgb(255, 255, 255);
     height: 80%;
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
 }
 li {
     float: left;
@@ -53,19 +51,16 @@ li a{
     display: flex;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-weight: bolder;
-    
 }
 nav {
     display: flex;
     position: absolute;
     top: 24.4em;
-    width: 100%;
-    text-align: center;
+    width: 150%;
     z-index: 1;
-    margin-left: 30%;
+    margin-left: -90%;
+    margin-top: -70%;
     cursor: pointer;
 }
 /*...................................................BODY...........................................................................*/
