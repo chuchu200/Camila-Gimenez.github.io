@@ -308,16 +308,17 @@ footer {
     margin-bottom: 0;
 }
 .redes {
-    bottom: 13em;
+    bottom: 73%;
     left: 850px;
     display: flex;
     position: absolute;
-    font-family: 'Hwyl fawr Hello', sans-serif;                                            
+    font-family: 'Hwyl fawr Hello', sans-serif;        
+    font-size: 20px;                                    
     background-color: #835c42;
     color: aliceblue;
 }
 .buttons {
-    left: 3px;
+    left: 10%;
     bottom: -4em;
     display: flex;
     position: absolute;
@@ -333,7 +334,7 @@ footer {
     bottom: 30em;
     font-family: 'Hwyl fawr Hello', sans-serif; 
     color: aliceblue;
-    
+    font-size: 20px;
 }
 .numeros ul{
     background-color: #835c42;
@@ -361,7 +362,6 @@ footer {
     left: 1245px;
     bottom: 14em;
 }
-
     
 
 
