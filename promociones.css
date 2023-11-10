@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A39A91;
+    z-index: -1;
+  
+}
+ 
+ /*..........................................................HEADER.................................................................*/
+ header {
+    background-color: #ad1212;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.titulo1 {
+    display: flex;
+    position: absolute;
+    font-family:'Backly Highs', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+    left: 800px;
+    top: 95px;
+}
+.titulo2 {
+    font-family: 'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 12em;
+    margin-left: 750px;
+    font-size: 1.70em;
+}
+ul {
+    font-family:'SansXHigh', sans-serif;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;   
+}
+nav {
+    display: flex;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-left: -57.7%;
+}
+/*..........................................................BODY.........................................................*/
+/*..........promos....................*/
+/*..........promo1............*/
+.promo1 {
+    display: flex;
+    position: absolute;
+    left: 10%;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:60%;
+}
+.promo1 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 22%;
+    top: 40%;
+    display: flex;
+    position: absolute;
+}
+/*...................promo2................*/
+.promo2 img{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:60%;
+    z-index: -1;
+}
+.promo2 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 45%;
+    display: flex;
+    position: absolute;
+    top: 68%;
+    z-index: 1;
+}
+/*...............promo3............*/
+.promo3 img{
+    display: flex;
+    position: absolute;
+    left: 70%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:61%;
+}
+.promo3 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 74%;
+    margin-top: 5%;
+    display: flex;
+    position: absolute;
+    top: 60%;
+}
+/*............promo4...............*/
+.promo4 img{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:100%;
+}
+.promo4 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 14%;
+    margin-top: 31%;
+    display: flex;
+    position: absolute;
+}
+/*............promo5.................*/
+.promo5 img{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:100%;
+}
+.promo5 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 43%;
+    margin-top: 1%;
+    display: flex;
+    position: absolute;
+    top: 108%;
+}
+/*...................promo6...............*/
+.promo6 img{
+    display: flex;
+    position: absolute;
+    left: 70%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:100%;
+}
+.promo6 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 75%;
+    display: flex;
+    position: absolute;
+    top: 108%;
+}
+/*...............promo7..............*/
+.promo7 img{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top: 140%;
+}
+.promo7 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 14%;
+    margin-top: 51.5%;
+    display: flex;
+    position: absolute;
+}
+/*..................promo8...................*/
+.promo8 img{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:140%;
+}
+.promo8 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 44%;
+    margin-top: 1%;
+    display: flex;
+    position: absolute;
+    top: 148%;
+}
+/*...............promo9...................*/
+.promo9 img{
+    display: flex;
+    position: absolute;
+    left: 70%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top:140%;
+}
+.promo9 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 75%;
+    display: flex;
+    position: absolute;
+    top: 148%;
+}
+/*................promo10.................*/
+.promo10 img{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    top: 178%;
+}
+.promo10 h4{
+    font-family:'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 14%;
+    margin-top: 71%;
+    display: flex;
+    position: absolute;
+}

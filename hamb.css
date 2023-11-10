@@ -169,7 +169,7 @@ li a{
 nav {
     display: flex;
     position: absolute;
-    top: 24.8em;
+    top: 90%;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -185,7 +185,7 @@ body {
     font-family: 'SansXHigh', sans-serif;
     font-size: 1.70em;
     text-align: center;
-    margin-top: 10%;
+    margin-top: -6%;
     display: flex;
     margin-left: 35%;
 }
@@ -199,14 +199,14 @@ body {
 /*............................................hamburguesas...................................*/
 /*..........TRADICIONAL...............*/
 .tradicional img{
-    border-radius: 6px;
-    margin-left: 20%;
     display: flex;
     position: absolute;
+    left: 10%;
+    border-radius: 6px;
     overflow: hidden;
     box-shadow: 0px 15px 25px;
     cursor: pointer;
-   
+    top: 70%; 
 }
 .tradicional img:hover {
     transform: translateY(-15%);
@@ -216,31 +216,32 @@ body {
 .tradicional {overflow:hidden;}  
 
 .tradicional h4{
-    font-family: 'SansXHigh', sans-serif;
+    font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
     z-index: 1;
-    margin-left: 39.5%;
-    margin-top: 1%;
+    margin-left: 15%;
+    top: 63%;
     display: flex;
     position: absolute;
 }
 .tradicional p{
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 40%;
-    margin-top: 3%;
-    padding-right: 13%;
+    margin-left: 8%;
+    margin-top: 18%;
+    padding-right: 70%;
 
 }
 /*.................COMPLETA................*/
 .completa img{
-    border-radius: 6px;
-    margin-left: 20%;
     display: flex;
     position: absolute;
-    margin-top: 12em;
+    left: 40%;
+    border-radius: 6px;
+    overflow: hidden;
     box-shadow: 0px 15px 25px;
     cursor: pointer;
+    top:70%;
 }
 .completa img:hover {
     transform: translateY(-15%);
@@ -250,30 +251,34 @@ body {
 .completa {overflow:hidden;}  
 
 .completa h4{
-    font-family: 'SansXHigh', sans-serif;
+    font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
-    z-index: 1;
-    margin-left: 39.5%;
-    margin-top: 12%;
+    margin-left: 43%;
     display: flex;
     position: absolute;
+    top: 63%;
+    z-index: 1;
 }
 .completa p{
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 40%;
-    margin-top: 14%;
-    padding-right: 13%;
+    left: 39%;
+    margin-top: -8%;
+    padding-right: 40%;
+    z-index: 1;
+    display:flex;
+    position: absolute;
 }
 /*...............LA NONA................*/
 .lanona img{
-    border-radius: 6px;
-    margin-left: 20%;
     display: flex;
     position: absolute;
-    margin-top: 14em;
+    left: 70%;
+    border-radius: 6px;
+    overflow: hidden;
     box-shadow: 0px 15px 25px;
     cursor: pointer;
+    top:70%;
 
 }
 .lanona img:hover {
@@ -284,31 +289,32 @@ body {
 .lanona {overflow:hidden;}  
 
 .lanona h4{
-    font-family: 'SansXHigh', sans-serif;
+    font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
-    z-index: 1;
-    margin-left: 39.5%;
-    margin-top: 12%;
+    margin-left: 75%;
     display: flex;
     position: absolute;
+    top: 62%;
 }
 .lanona p{
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 40%;
-    margin-top: 14%;
-    padding-right: 13%;
+    margin-left: 67%;
+    margin-top: -10%;
+    padding-right: 10%;
+    position: absolute;
     
 }
 /*..................4QUESOS.......................*/
 .quesos img{
-    border-radius: 6px;
-    margin-left: 20%;
     display: flex;
     position: absolute;
-    margin-top: 16em;
+    left: 10%;
+    border-radius: 6px;
+    overflow: hidden;
     box-shadow: 0px 15px 25px;
     cursor: pointer;
+    top:125%;
 
 }
 .quesos img:hover {
@@ -319,31 +325,33 @@ body {
 .quesos {overflow:hidden;}  
 
 .quesos h4{
-    font-family: 'SansXHigh', sans-serif;
+    font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
     z-index: 1;
-    margin-left: 39.5%;
-    margin-top: 12%;
+    margin-left: 15%;
+    margin-top: 1%;
     display: flex;
     position: absolute;
+    top: 118%;
 }
 .quesos p{
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 40%;
-    margin-top: 14%;
-    padding-right: 13%;
+    margin-left: 10%;
+    margin-top: 17%;
+    padding-right: 70%;
  
 }
 /*........................DOBLE....................*/
 .doble img{
-    border-radius: 6px;
-    margin-left: 20%;
     display: flex;
     position: absolute;
-    margin-top: 15em;
+    left: 40%;
+    border-radius: 6px;
+    overflow: hidden;
     box-shadow: 0px 15px 25px;
     cursor: pointer;
+    top:125%;
 }
 .doble img:hover {
     transform: translateY(-15%);
@@ -353,30 +361,34 @@ body {
 .doble {overflow:hidden;}  
 
 .doble h4{
-    font-family: 'SansXHigh', sans-serif;
+    font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
-    z-index: 1;
-    margin-left: 39.5%;
-    margin-top: 12%;
+    margin-left: 43%;
+    margin-top: 1%;
     display: flex;
     position: absolute;
+    top: 118%;
 }
 .doble p{
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 40%;
-    margin-top: 15em;
-    padding-right: 13%;
+    margin-left: 39%;
+    margin-top: -7.5%;
+    padding-right: 38%;
+    position: absolute;
+    display: flex;
 }
+
 /*........................RECARGADA..................*/
 .recargada img {
-    border-radius: 6px;
-    margin-left: 20%;
     display: flex;
     position: absolute;
-    margin-top: 15em;
+    left: 70%;
+    border-radius: 6px;
+    overflow: hidden;
     box-shadow: 0px 15px 25px;
     cursor: pointer;
+    top:125%;
     
 }
 .recargada img:hover {
@@ -387,24 +399,26 @@ body {
 .recargada {overflow:hidden;}  
 
 .recargada h4{
-    font-family: 'SansXHigh', sans-serif;
+    font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
     z-index: 1;
-    margin-left: 39.5%;
-    margin-top: 12%;
+    margin-left: 75%;
+    margin-top: 1%;
     display: flex;
     position: absolute;
+    top: 118%;
 }
 .recargada p{
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 40%;
-    margin-top: 15em;
-    padding-right: 13%;
+    margin-left: 68%;
+    margin-top: -8%;
+    padding-right: 10%;
+    position: absolute;
 }
 
 /*.........................................................FOOTER...............................................*/
-/*..................REDES.............*/
+/*........................REDES........................*/
 footer {
     background-color: #835c42;
     background-size: cover;

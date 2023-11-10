@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient( #420404, #5f0003);
+    height: 100%;
+}
+header {
+    font-family: 'Hyatheus', sans-serif;                                      
+    font-size: 4em;
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.img {
+    margin-left: 4em;
+    display: flex;
+    position: absolute;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.img:hover {
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+.info {
+    display: flex;
+    position: absolute;
+    left: 27em;
+    font-family: 'Hyatheus', sans-serif;
+    font-size: 1.2em;
+    margin-top: -1em;
+    color: aliceblue;
+}
+.redes {
+    margin-top: 13em;
+    font-family: 'Hyatheus', sans-serif;
+    font-size: 1.2em;
+    margin-left: 27em;
+    text-decoration: none;
+    color: aliceblue;
+}
+.numero {
+    margin-top: 1em;
+    margin-left: 27em;
+    font-family: 'Hyatheus', sans-serif;
+    color:aliceblue;
+    font-size: 1.2em;
+}
+
+    
+
+
+

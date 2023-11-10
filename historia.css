@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A39A91;
+    z-index: -1;
+    
+}
+ 
+ /*..........................................................HEADER.................................................................*/
+header {
+    background-color: #ad1212;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.titulo1 {
+    display: flex;
+    position: absolute;
+    font-family:'Backly Highs', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+    left: 800px;
+    top: 95px;
+}
+.titulo2 {
+    font-family: 'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 12em;
+    margin-left: 750px;
+    font-size: 1.70em;
+}
+ul {
+    font-family:'SansXHigh', sans-serif;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;   
+}
+nav {
+    display: flex;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-left: -57.7%;
+}
+/*...........................................BODY.....................................................*/
+
+.historia img{
+    display: flex;
+    position: absolute;
+    left: 28%;
+    top: 60%;
+    border-radius: 25px;
+    z-index: -1;
+    display: flex;
+    position: absolute;
+}
+.historia h4{
+    font-family:'Backly Highs', sans-serif ;
+    margin-left: 40%;
+    top: 60%;
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+}
+.historia p{
+    display: flex;
+    font-family:'SansXHigh', sans-serif ;
+    margin-left: 35%;
+    margin-top: 20%;
+    padding-right: 40%;
+    z-index: 1;
+    font-size: 20px;
+    color: rgb(177, 189, 199);
+}
+
+/*.................................................FOOTER.....................................................*/
+/*........................REDES........................*/
+footer {
+    background-color: #835c42;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    bottom: -60%;
+}
+.redes {
+    bottom: 13em;
+    left: 850px;
+    display: flex;
+    position: absolute;
+    font-family: 'Hwyl fawr Hello', sans-serif;                                            
+    background-color: #835c42;
+    color: aliceblue;
+}
+.buttons {
+    left: 3px;
+    bottom: -4em;
+    display: flex;
+    position: absolute;
+    background-color:#835c42;
+}
+.redes .buttons:hover{
+    transform: translateY(-6px);
+    transition: 1s;
+}
+/*...............NUMEROS..............*/
+.numeros {
+    margin-left: 450px;
+    bottom: 30em;
+    font-family: 'Hwyl fawr Hello', sans-serif; 
+    color: aliceblue;
+    
+}
+.numeros ul{
+    background-color: #835c42;
+    color: aliceblue;
+}
+.numeros button {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #835c42;
+    border: none;
+}
+.numeros button:hover {
+    color: #ad1212;
+}
+.contador {
+    display: flex;
+    position: absolute;
+    left: 1255px;
+    bottom: 10em;
+}
+.clima {
+    display: flex;
+    position: absolute;
+    left: 1245px;
+    bottom: 14em;
+}
+.portfolio img{
+    width: 10%;
+    height: 20%;
+    margin-left: 0%;
+    margin-bottom: -40%;
+}

@@ -90,18 +90,18 @@ header {
     overflow: hidden;
     background-color:rgb(255, 255, 255);
  }
-li {
+ li {
     float: left;
-}
-li a{
+ }
+ li a{
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bolder;   
-}
-nav {
+ }
+ nav {
     display: flex;
     position: absolute;
     top: 90%;
@@ -123,35 +123,42 @@ nav {
     font-family: 'Manthul', sans-serif;
     top: 58%;
     left: 43%;
-    color: #ad1212;
-    font-size: 300%;
+    color:#ddd2d2;
+    font-size: 350%;
     position: absolute;
     display: flex;
 }
 .info p {
     display: flex;
     position: absolute;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'SansXHigh', sans-serif;
     margin-left: 28%;
     top: 55%;
     padding: 12% 20%;
    
 }
-.fotoinfo {
+.info img{
     margin-left: 15%;
     display: flex;
     position: absolute;
     -webkit-transition: 1s linear;
     transition: 1s linear;
-    
     cursor: pointer;
-    top: 80%;
+    top: 75%;
+    border-radius: 15px;
 }
 
-.fotoinfo:hover {
+.info img:hover {
     transform: translateY(-15%);
     transition: 1s;
+}
+.parte1 img{
+    display: flex;
+    position: absolute;
+    left: 12%;
+    top: 61%;
+    border-radius: 15px;
 }
 /*...........................SEGUNDA PARTE....................*/
 .alternativa {
@@ -162,37 +169,30 @@ nav {
     margin: 0;
     background-color: #ad1212;
     background: linear-gradient(#ad1212, #693a3a );
-    width: 80%;
+    width: 60%;
     height: 40%;
     border-radius: 20px;
-    left: 10%;
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+    left: 20%;
     box-shadow: 0px 15px 20px;
     cursor: pointer;
 }
-.alternativa:hover {
-    transform: translateY(-15%);
-    transition: 1s;
-}
-
 .alternativa h3{
     font-family: 'Manthul', sans-serif;
-    color:#ad1212;
+    color:#d3d3d3;
     font-size: 300%;
     display: flex;
     position: absolute;
-    left: 43%;
-    top: -30%;
+    left: 40%;
+    top: -4%;
 }
 .alternativa p{
     display: flex;
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 3%;
-    margin-top: -2%;
+    margin-left: 20%;
+    margin-top: 15%;
     color:aliceblue;
-    padding: 10%;
+   
 }
 /*.......................................................NAVEGACION.....................................................*/
 .lista {
@@ -203,7 +203,6 @@ nav {
     justify-content: center;
     padding: 30px 15px;
 }
-
 .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -435,4 +434,10 @@ footer {
     position: absolute;
     left: 1245px;
     bottom: 14em;
+}
+.portfolio img{
+    width: 10%;
+    height: 20%;
+    margin-left: 0%;
+    margin-bottom: -40%;
 }
