@@ -93,7 +93,7 @@
         position: absolute;
         font-size: 10%;
     }
-     .lista  {
+    .lista  {
         column-gap:  1;
         column-fill: auto;
         columns: 1;
@@ -101,6 +101,14 @@
         display: flex;
         grid-template-columns: 1;
         
+    }
+    .contenedor h3{
+        display: flex;
+        position: absolute;
+        top: 275%;
+        text-align: center;
+        justify-content: center;
+        margin-left: -30%;
     }
     .ubicacion {
         display: flex;
@@ -212,9 +220,9 @@ nav {
     list-style: none;
 }
 .slider li img{
-    min-width: 100%;
-    margin-top: -0.9%;
-    margin-left: -8%;
+    max-width: 100%;
+    margin-top: -0.2%;
+    margin-left: 0;
 }
 @keyframes slider{
     0% {margin-left: 0;}
