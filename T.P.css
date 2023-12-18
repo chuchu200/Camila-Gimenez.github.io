@@ -128,6 +128,22 @@
         position: absolute;
         margin-left: -260%;
     }
+    .numeros {
+        display: flex;
+        position: absolute;
+        left: -80%;
+        top: 0.7em;
+    }
+    .items{
+        display: flex;
+        position: absolute;
+        left: -10%;
+        top: 3em;
+    }
+    .portfolio {
+        opacity: 0;
+        z-index: -1;
+    }
 }
 /*.......................................................CSS..................................................*/
 body {
@@ -190,7 +206,7 @@ nav {
     width: 100%;
     text-align: center;
     z-index: 1;
-    margin-left: -57.7%;
+    margin-left: -52%;
 }
 /*...................................................BODY...........................................................................*/
 /*................PRIMER PARTE...........*/
@@ -239,14 +255,14 @@ nav {
 }
 
 .container{
-background-repeat: no-repeat;
-background-color:#693a3a;
-border-radius: 15px;
-margin-top: 250px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 400px;
+    background-repeat: no-repeat;
+    background-color:#693a3a;
+    border-radius: 15px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 .container p{
     padding-right: 80px;
@@ -526,12 +542,7 @@ footer {
     left: 1255px;
     bottom: 10em;
 }
-.clima {
-    display: flex;
-    position: absolute;
-    left: 1245px;
-    bottom: 14em;
-}
+
 .portfolio img{
     width: 10%;
     height: 20%;

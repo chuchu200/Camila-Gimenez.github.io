@@ -1,11 +1,245 @@
+/*...............MEDIA QUERY 320PX...............*/
+@media (max-width: 320px){
+    header {
+        background-color: #ad1212;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        display: flex;
+    }
+    .titulo1 {
+        margin-left: -750px;
+        display: flex;
+        position: absolute;
+        font-size: small;
+    }
+    .titulo2 h4{
+        margin-left: -680px;
+        display: flex;
+        font-size: small;
+    }
+    .nav {
+        display: flex;
+        min-width: 100%;
+        left: 57.6%;
+    }
+    body {
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    body h2{
+        display: flex;
+        position: absolute;
+        left: -18%;
+        margin-top: 20%;
+    }
+    .promos{
+        display: flex;
+    }
+    /*................promo1.....................*/
+    .promo1 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo1 h4{
+        font-size: larger;
+        background-color: rgb(83, 52, 52);
+        left: 0.5em;
+        border-radius: 10px;
+        text-align: center;
+        width: 220px;
+    }
+    /*....................promo2.......................*/
+    .promo2 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo2 h4{
+        text-align: center;
+        font-size: larger;
+        background-color: rgb(83, 52, 52);
+        left: -5.5em;
+        border-radius: 10px;
+        margin-top: 3em;
+        width: 220px;
+    }
+    /*......................promo3............................*/
+    .promo3 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo3 h4{
+        z-index: -1;
+        opacity: 0;
+    }
+    /*.......................promo4...............................*/
+    .promo4 img {
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo4 h4{
+        font-size: larger;
+        background-color:rgb(83, 52, 52) ;
+        left: -0.5em;
+        border-radius: 10px;
+        top: 37em;
+        width: 250px;
+        text-align: center;
+    }
+    /*...........................promo5.............................*/
+    .promo5 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo5 h4{
+        text-align: center;
+        font-size: larger;
+        background-color: rgb(83, 52, 52);
+        left: -5.5em;
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 18em;
+    }
+    /*........................promo6..................................*/
+    .promo6 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo6 h4{
+        font-size: larger;
+        background-color: rgb(83, 52, 52);
+        left: -10.5em;
+        border-radius: 10px;
+        width: 250px;
+        text-align: center;
+        margin-top: 7em;
+    }
+    /*...........................promo7...................*/
+    .promo7 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;    
+    }
+    .promo7 h4{
+        text-align: center;
+        font-size: larger;
+        background-color: rgb(83, 52, 52);
+        left: 0em;
+        border-radius: 10px;
+        top: 52em;
+        width: 220px;
+    }
+    /*...........................promo8...............................*/
+    .promo8 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo8 h4{
+        text-align: center;
+        font-size: larger;
+        background-color: rgb(83, 52, 52);
+        left: -5em;
+        border-radius: 10px;
+        margin-top: 1000px;
+        width: 220px;
+        display: flex;
+    }
+    /*...........................promo9....................*/
+    .promo9 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo9 h4{
+        background-color: rgb(83, 52, 52);
+        left: -10em;
+        border-radius: 10px;
+        font-size: larger;
+        width: 65%;
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+    /*......................promo10...........................*/
+    .promo10 img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        opacity: 0;
+    }
+    .promo10 h4{
+        background-color: rgb(83, 52, 52);
+        position: absolute;
+        left: -10px;
+        border-radius: 10px;
+        display: flex;
+        font-size:larger;
+        top: 1450px;
+        width: 75%;
+        text-align: center;
+    }
+    h4{
+        display: flex;
+        height: auto;
+    }
+    footer {
+        display: flex;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        top: 1450px;
+        z-index: -1;
+    }
+    .numeros h2{
+        z-index: -1;
+        opacity: 0;
+    }
+    .redes h2{
+        display: flex;
+        left: -800px;
+    }
+    .buttons{
+        display: flex;
+        left: -800px;
+        position: absolute;
+        z-index: 1;
+    }
+}
 body {
     margin: 0;
     padding: 0;
     background-color: #A39A91;
     z-index: -1;
-  
+    
 }
- 
+
  /*..........................................................HEADER.................................................................*/
  header {
     background-color: #ad1212;
@@ -264,4 +498,72 @@ nav {
     margin-top: 71%;
     display: flex;
     position: absolute;
+}
+/*........................................FOOTER..................................................*/
+/*........................REDES........................*/
+footer {
+    background-color: #835c42;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 1800px;
+}
+.redes {
+    bottom: 13em;
+    left: 850px;
+    display: flex;
+    position: absolute;
+    font-family: 'Hwyl fawr Hello', sans-serif;                                            
+    background-color: #835c42;
+    color: aliceblue;
+}
+.buttons {
+    left: 3px;
+    bottom: -4em;
+    display: flex;
+    position: absolute;
+    background-color:#835c42;
+}
+.redes .buttons:hover{
+    transform: translateY(-6px);
+    transition: 1s;
+}
+/*...............NUMEROS..............*/
+.numeros {
+    margin-left: 450px;
+    bottom: 30em;
+    font-family: 'Hwyl fawr Hello', sans-serif; 
+    color: aliceblue;
+    
+}
+.numeros ul{
+    background-color: #835c42;
+    color: aliceblue;
+}
+.numeros button {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #835c42;
+    border: none;
+}
+.numeros button:hover {
+    color: #ad1212;
+}
+.contador {
+    display: flex;
+    position: absolute;
+    left: 1255px;
+    bottom: 10em;
+}
+.portfolio img{
+    width: 10%;
+    height: 20%;
+    margin-left: 0%;
+    margin-bottom: -40%;
 }

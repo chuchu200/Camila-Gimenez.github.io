@@ -1,3 +1,158 @@
+/*...............MEDIA QUERY 320PX...............*/
+@media (max-width: 320px){
+    header {
+        background-color: #ad1212;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        display: flex;
+    }
+    .titulo1 {
+        margin-left: -750px;
+        display: flex;
+        position: absolute;
+        font-size: small;
+    }
+    .titulo2 h4{
+        margin-left: -680px;
+        display: flex;
+        font-size: small;
+    }
+    .nav {
+        display: flex;
+        min-width: 100%;
+        left: 57.6%;
+    }
+    body h2{
+        display: flex;
+        position: absolute;
+        left: -18%;
+        margin-top: 20%;
+    }
+    /*................comun.....................*/
+    .comun img{
+        display: flex;
+        position: absolute;
+        max-width: 100%;
+        margin-left: -7%;
+        z-index: 1;
+    }
+    .comun p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .comun h4{
+        left: 20%;
+    }
+    /*....................pizza.......................*/
+    .pizza img{
+        display: flex;
+        position: absolute;
+        margin-top: 140%;
+        margin-left: -36%;
+        z-index: 1;
+    }
+    .pizza p{
+        color: #A39A91;
+        z-index: -1;
+        opacity: 0;
+    }
+    .pizza h4{
+        display: flex;
+        position: absolute;
+        padding-top: 480px;
+        left: 60%;
+        z-index: 1;
+    }
+    /*......................napo.............................*/
+    .napolitana img{
+        display: flex;
+        position: absolute;
+        margin-top: 300%;
+        margin-left: -66%;
+        z-index: 1;
+    }
+    .napolitana p{
+        color:#A39A91;
+        z-index: -1;
+    }
+    .napolitana h4{
+        display: flex;
+        position: absolute;
+        padding-top: 1000px;
+        left: 40%;
+    }
+    /*.......................suiza...............................*/
+    .suiza img {
+        display: flex;
+        position: absolute;
+        margin-top: 300%;
+        margin-left: -6%;
+        z-index: 1;
+    }
+    .suiza p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .suiza h4{
+        display: flex;
+        position: absolute;
+        padding-top: 980px;
+        left: 20%;
+    }
+    /*.............................americana.............................*/
+    .americana img{
+        display: flex;
+        position: absolute;
+        margin-top: 440%;
+        margin-left: -36%;
+        z-index: 1;
+    }
+    .americana p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .americana h4{
+        display: flex;
+        position: absolute;
+        padding-top: 1400px;
+        left: 60%;
+    }
+    /*........................italiana..................................*/
+    .italiana img{
+        display: flex;
+        position: absolute;
+        margin-top: 600%;
+        margin-left: -66%;
+        z-index: 1;
+    }
+    .italiana p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .italiana h4{
+        display: flex;
+        position: absolute;
+        padding-top: 1930px;
+        left: 30%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        margin-top: 2000px;
+    }
+    .redes {
+        margin-bottom: -8%;
+        display: flex;
+        position: absolute;
+        margin-left: -260%;
+    }
+}
+/*.......................................................CSS....................................................*/
 body {
     margin: 0;
     padding: 0;
@@ -103,11 +258,10 @@ h2 {
 }
 .comun p {
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 8%;
-    margin-top: 30%;
-    padding-right: 58%;
-    
+    font-size: 2em;
+    margin-left: 8em;
+    margin-top: 13em;
+    z-index: 1;
 }
 /*......................pizza..........................*/
 .pizza{
@@ -133,7 +287,7 @@ h2 {
 .pizza h4{
     font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
-    margin-left: -35%;
+    margin-left: 30em;
     display: flex;
     position: absolute;
     top: 60%;
@@ -141,13 +295,10 @@ h2 {
 }
 .pizza p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    left: 38%;
-    margin-top: 23%;
-    padding-right: 37%;
+    font-size: 2em;
+    margin-left: 15em;
+    margin-top: 13em;
     z-index: 1;
-    display:flex;
-    position: absolute;
 }
 /*....................napo.....................*/
 .napolitana img{
@@ -171,7 +322,7 @@ h2 {
     font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
     z-index: 1;
-    margin-left: -6%;
+    margin-left: 29em;
     margin-top: 1%;
     display: flex;
     position: absolute;
@@ -179,11 +330,10 @@ h2 {
 }
 .napolitana p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: -10%;
-    margin-top: 23%;
-    padding-right: 10%;
-    position: absolute;
+    font-size: 2em;
+    margin-left: 16em;
+    margin-top: 13em;
+    z-index: 1;
 }
 /*.................mila2...................*/
 .mila2{
@@ -220,10 +370,10 @@ h2 {
 }
 .suiza p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 10%;
-    margin-top: 30%;
-    padding-right: 57%;
+    font-size: 2em;
+    margin-left: 8em;
+    margin-top: 15em;
+    z-index: 1;
 }
 /*...................americana...................*/
 .americana img{
@@ -247,19 +397,18 @@ h2 {
     font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
     z-index: 1;
-    margin-left: -30%;
-    margin-top: 1%;
+    margin-left: 26em;
+    margin-top: 54em;
     display: flex;
     position: absolute;
-    top: 118%;
+    top: 18em;
 }
 .americana p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: -38%;
-    margin-top: 22%;
-    padding-right: 35%;
-    position: absolute;
+    font-size: 2em;
+    margin-left: 15em;
+    margin-top: 15em;
+    z-index: 1;
 }
 /*...................italiana..........................*/
 .italiana img{
@@ -283,7 +432,7 @@ h2 {
     font-family:'SansXHigh', sans-serif;
     color: rgb(0, 0, 0);
     z-index: 1;
-    margin-left: 0%;
+    margin-left: 28em;
     margin-top: 1%;
     display: flex;
     position: absolute;
@@ -291,11 +440,10 @@ h2 {
 }
 .italiana p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: -6%;
-    margin-top: 22%;
-    padding-right: 10%;
-    position: absolute;
+    font-size: 2em;
+    margin-left: 16em;
+    margin-top: 15em;
+    z-index: 1;
 }
 /*................................................FOOTER.............................................*/
 /*........................REDES........................*/
@@ -309,6 +457,7 @@ footer {
     display: flex;
     padding-bottom: 0;
     margin-bottom: 0;
+    
 }
 .redes {
     bottom: 73%;
@@ -358,10 +507,4 @@ footer {
     position: absolute;
     left: 1255px;
     bottom: 10em;
-}
-.clima {
-    display: flex;
-    position: absolute;
-    left: 1245px;
-    bottom: 14em;
 }

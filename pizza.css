@@ -1,4 +1,169 @@
-
+/*...............MEDIA QUERY 320PX...............*/
+@media (max-width: 320px){
+    header {
+        background-color: #ad1212;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        display: flex;
+        z-index: -1;
+    }
+    .titulo1 {
+        margin-left: -750px;
+        display: flex;
+        position: absolute;
+        font-size: small;
+    }
+    .titulo2 h4{
+        margin-left: -680px;
+        display: flex;
+        font-size: small;
+    }
+    .nav {
+        position: absolute;
+        display: flex;
+        max-width: 100%;
+        left: 185px;
+        z-index: 1;
+        top: 370px;
+    }
+    body h2{
+        display: flex;
+        position: absolute;
+        left: 23%;
+        margin-top: 130px;
+    }
+    .comun img{
+        display: flex;
+        position: absolute;
+        max-width: 100%;
+        margin-left: -7%;
+        z-index: 1; 
+        margin-top: 50%;   
+    }
+    .comun p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .comun h4{
+        left: 20%;
+        margin-top: 50%;
+    }
+        /*....................especial......................*/
+    .especial img{
+        display: flex;
+        position: absolute;
+        margin-top: 180%;
+        margin-left: -36%;
+        z-index: 1;
+    }
+    .especial p{
+        color: #A39A91;
+        z-index: -1;
+        opacity: 0;
+    }
+    .especial h4{
+        display: flex;
+        position: absolute;
+        padding-top: 540px;
+        left: -10%;
+        z-index: 1;
+    }
+    /*......................napo.............................*/
+    .napolitana img{
+        display: flex;
+        position: absolute;
+        margin-top: 320%;
+        margin-left: -66%;
+        z-index: 1;
+    }
+    .napolitana p{
+        color:#A39A91;
+        z-index: -1;
+    }
+    .napolitana h4{
+        display: flex;
+        position: absolute;
+        padding-top: 1010px;
+        left: -40%;
+    }
+    /*.......................provenzal...............................*/
+    .provenzal img {
+        display: flex;
+        position: absolute;
+        margin-top: 350%;
+        margin-left: -6%;
+        z-index: 1;
+    }
+    .provenzal p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .provenzal h4{
+        display: flex;
+        position: absolute;
+        padding-top: 1080px;
+        left: 20%;
+    }
+    /*.............................quesos.............................*/
+    .quesos img{
+        display: flex;
+        position: absolute;
+        margin-top: 500%;
+        margin-left: -36%;
+        z-index: 1;
+    }
+    .quesos p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .quesos h4{
+        display: flex;
+        position: absolute;
+        padding-top: 1560px;
+        left: -10%;
+    }
+    /*........................palmito..................................*/
+    .palmito img{
+        display: flex;
+        position: absolute;
+        margin-top: 650%;
+        margin-left: -66%;
+        z-index: 1;
+    }
+    .palmito p{
+        color: #A39A91;
+        z-index: -1;
+    }
+    .palmito h4{
+        display: flex;
+        position: absolute;
+        padding-top: 2060px;
+        left: -40%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        margin-top: 2000px;
+    }
+    .redes {
+        margin-bottom: -10%;
+        display: flex;
+        position: absolute;
+        margin-left: -260%;
+    }
+    .numeros{
+        padding-left: 0px;
+        display: flex;
+        color:#A39A91;
+        z-index: -1;
+    }
+}
+/*......................................................CSS...........................................................*/
 body {
     margin: 0;
     padding: 0;
@@ -57,20 +222,14 @@ li a{
 nav {
     display: flex;
     position: absolute;
-    top: 24.8em;
+    top: 45%;
     width: 100%;
     text-align: center;
     z-index: 1;
-    margin-left: -57.7%;
+    margin-left: 0;
 }
 /*............................................................BODY......................................................*/
 /*.......................pizzas...........................*/
-h2 {
-    font-family: 'SansXHigh', sans-serif;
-    left: 45%;
-    display: flex;
-    position: absolute;
-}
 /*.......comun...........*/
 .comun {
     display: flex;
@@ -105,10 +264,10 @@ h2 {
 }
 .comun p {
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 8%;
-    margin-top: 22%;
-    padding-right: 70%;
+    font-size: 2em;
+    margin-left: 8em;
+    margin-top: 12em;
+    z-index: 1;
 }
 /*...........especial.....................*/
 .especial{
@@ -124,6 +283,7 @@ h2 {
     box-shadow: 0px 15px 25px;
     cursor: pointer;
     top:60%;
+    z-index: -1;
 }
 .especial img:hover{
     transform: translateY(-15%);
@@ -139,16 +299,14 @@ h2 {
     display: flex;
     position: absolute;
     top: 50%;
-    z-index: -1;
 }
 .especial p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 38%;
-    margin-top: -5%;
-    padding-right: 36%;
+    font-size: 2em;
+    margin-left: 26em;
+    margin-top: -4%;
     z-index: 1;
-    display:flex;
+    display: flex;
     position: absolute;
 }
 /*.............napolitana..................*/
@@ -181,11 +339,12 @@ h2 {
 }
 .napolitana p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 70%;
-    margin-top: -6%;
-    padding-right: 10%;
+    font-size: 2em;
+    margin-left: 45em;
+    top: 26em;
+    z-index: 1;
     position: absolute;
+    display: flex;
 }
 /*..............provenzal............*/
 .provenzal img{
@@ -217,10 +376,10 @@ h2 {
 }
 .provenzal p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 10%;
-    margin-top: 27%;
-    padding-right: 70%;
+    font-size: 2em;
+    margin-left: 8em;
+    margin-top: 16em;
+    z-index: 1;
 }
 /*............4quesos..............*/
 .quesos img{
@@ -252,11 +411,12 @@ h2 {
 }
 .quesos p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 38%;
-    margin-top: -7%;
-    padding-right: 35%;
+    font-size: 2em;
+    margin-left: 26em;
+    margin-top: -60px;
+    z-index: 1;
     position: absolute;
+    display: flex;
 }
 /*....................palmito..................*/
 .palmito img{
@@ -288,11 +448,12 @@ h2 {
 }
 .palmito p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 70%;
-    margin-top: -8%;
-    padding-right: 10%;
+    font-size: 2em;
+    margin-left: 45em;
+    margin-top: -68px;
+    z-index: 1;
     position: absolute;
+    display: flex;
 }
 /*.......................................FOOTER....................................*/
 /*........................REDES........................*/
@@ -306,6 +467,7 @@ footer {
     display: flex;
     padding-bottom: 0;
     margin-bottom: 0;
+    
 }
 .redes {
     bottom: 73%;
@@ -356,12 +518,7 @@ footer {
     left: 1255px;
     bottom: 10em;
 }
-.clima {
-    display: flex;
-    position: absolute;
-    left: 1245px;
-    bottom: 14em;
-}
+
     
 
 

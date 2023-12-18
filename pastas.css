@@ -1,3 +1,151 @@
+/*...............MEDIA QUERY 320PX...............*/
+@media (max-width: 320px){
+    header {
+        background-color: #ad1212;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        display: flex;
+    }
+    .titulo1 {
+        margin-left: -750px;
+        display: flex;
+        position: absolute;
+        font-size: small;
+    }
+    .titulo2 h4{
+        margin-left: -680px;
+        display: flex;
+        font-size: small;
+    }
+    .nav {
+        display: flex;
+        min-width: 100%;
+        left: 57.6%;
+    }
+    body h2{
+        display: flex;
+        position: absolute;
+        left: -31%;
+    }
+    .pastas{
+        display: flex;
+        position: absolute;
+    }
+    /*................noqui.....................*/
+    .noqui img{
+        z-index: -1;
+        opacity: 0;
+    }
+    .noqui h4{
+        left: 1em;
+        display: flex;
+        position: absolute;
+        top: 10em;
+        background-color: rgb(182, 120, 95);
+        min-width: 25%;
+        text-align: center;
+        border-radius: 15px;
+        font-size: large;
+    }
+    /*....................tallarines.......................*/
+    .tallarines img{
+        z-index: -1;
+        opacity: 0;
+    }
+    .tallarines h4{
+        display: flex;
+        position: absolute;
+        background-color: rgb(182, 120, 95);
+        top: 20em;
+        min-width: 30%;
+        left: -30%;
+        border-radius: 15px;
+        text-align: center;
+        font-size: large;
+    }
+    /*......................canelones.............................*/
+    .canelones img{
+        z-index: -1;
+        opacity: 0;
+    }
+    .canelones h4{
+        display: flex;
+        position: absolute;
+        background-color: rgb(182, 120, 95);
+        top: 28em;
+        min-width: 30%;
+        left: -65%;
+        border-radius: 15px;
+        text-align: center;
+        font-size: large;
+    }
+    /*.......................ravioles..............................*/
+    .ravioles img {
+        opacity: 0;
+        z-index: -1;
+    }
+    .ravioles h4{
+        display: flex;
+        position: absolute;
+        background-color: rgb(182, 120, 95);
+        top: 32em;
+        min-width: 30%;
+        left: 0%;
+        border-radius: 15px;
+        text-align: center;
+        font-size: large;
+    }
+    /*.............................lasagna............................*/
+    .lasagna img{
+        z-index: -1;
+        opacity: 0;
+    }   
+    .lasagna h4{
+        display: flex;
+        position: absolute;
+        background-color: rgb(182, 120, 95);
+        top: 42em;
+        min-width: 12%;
+        left: -25%;
+        border-radius: 15px;
+        text-align: center;
+        font-size: large;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        margin-top: 2000px;
+    }
+    .redes {
+        margin-bottom: -8%;
+        display: flex;
+        position: absolute;
+        margin-left: -260%;
+    }
+    .numeros {
+        display: flex;
+        position: absolute;
+        left: -80%;
+        top: 0.7em;
+    }
+    .items{
+        display: flex;
+        position: absolute;
+        left: -10%;
+        top: 3em;
+    }
+    .portfolio {
+        opacity: 0;
+        z-index: -1;
+    }
+
+}
+/*.........................................................CSS...........................................*/
 body {
     margin: 0;
     padding: 0;
@@ -249,10 +397,4 @@ footer {
     position: absolute;
     left: 1255px;
     bottom: 10em;
-}
-.clima {
-    display: flex;
-    position: absolute;
-    left: 1245px;
-    bottom: 14em;
 }

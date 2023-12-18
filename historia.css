@@ -1,3 +1,83 @@
+/*...............MEDIA QUERY 320PX...............*/
+@media (max-width: 320px){
+    header {
+        background-color: #ad1212;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        display: flex;
+    }
+    .titulo1 {
+        margin-left: -750px;
+        display: flex;
+        position: absolute;
+        font-size: small;
+    }
+    .titulo2 h4{
+        margin-left: -680px;
+        display: flex;
+        font-size: small;
+    }
+    .nav {
+        display: flex;
+        min-width: 100%;
+        left: 57.6%;
+    }
+    .historia img{
+        z-index: -1;
+        opacity: 0;
+    }
+    .historia h4{
+        display: flex;
+        left: -30px;
+        top: 30em;
+    }
+    .historia p{
+        display: flex;
+        left: -290%;
+        top: 30em;
+        position: relative;
+        width: 190%;
+        background-color: #835c42;
+        border-radius: 15px;
+        text-align: center;
+    }
+    body {
+        z-index: 1;
+        display: flex;
+    }
+    footer{
+        display: flex;
+        position: absolute;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        
+    }
+    .redes {
+        margin-bottom: -8%;
+        display: flex;
+        position: absolute;
+        margin-left: -260%;
+    }
+    .numeros {
+        display: flex;
+        position: absolute;
+        left: -80%;
+        top: 0.7em;
+    }
+    .items{
+        display: flex;
+        position: absolute;
+        left: -10%;
+        top: 3em;
+    }
+    .portfolio {
+        opacity: 0;
+        z-index: -1;
+    }
+
+}
 body {
     margin: 0;
     padding: 0;
@@ -66,8 +146,8 @@ nav {
 .historia img{
     display: flex;
     position: absolute;
-    left: 28%;
-    top: 60%;
+    left: 31%;
+    top: 50%;
     border-radius: 25px;
     z-index: -1;
     display: flex;
@@ -76,7 +156,7 @@ nav {
 .historia h4{
     font-family:'Backly Highs', sans-serif ;
     margin-left: 40%;
-    top: 60%;
+    top: 47%;
     font-size: 50px;
     display: flex;
     position: absolute;
@@ -85,7 +165,7 @@ nav {
     display: flex;
     font-family:'SansXHigh', sans-serif ;
     margin-left: 35%;
-    margin-top: 20%;
+    margin-top: 10%;
     padding-right: 40%;
     z-index: 1;
     font-size: 20px;
@@ -153,12 +233,6 @@ footer {
     position: absolute;
     left: 1255px;
     bottom: 10em;
-}
-.clima {
-    display: flex;
-    position: absolute;
-    left: 1245px;
-    bottom: 14em;
 }
 .portfolio img{
     width: 10%;

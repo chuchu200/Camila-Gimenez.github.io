@@ -1,115 +1,177 @@
-/*...............MEDIA QUERY 1440PX...............*/
-@media (max-width: 1440px){
+/*...............MEDIA QUERY 320PX...............*/
+@media (max-width: 320px){
     header {
         background-color: #ad1212;
         background-size: cover;
-        width: 100%;
-        font-size: 150%;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
         display: flex;
-        left: 15%;
+    }
+    .titulo1 {
+        margin-left: -750px;
+        display: flex;
+        position: absolute;
+        font-size: small;
+    }
+    .titulo2 h4{
+        margin-left: -680px;
+        display: flex;
+        font-size: small;
+    }
+    .nav {
+        display: flex;
+        min-width: 100%;
+        left: 0;
+        top: 380px;
+    }
+    .presentacion h2{
+        display: flex;
+        position: absolute;
+        left: -31%;
+        top: 500px;
+    }
+    /*............tradicional...............*/
+    .tradicional img{
+        display: flex;
+        position: absolute;
+        max-width: 100%;
+        margin-left: -7%;
+        z-index: 1;
+    }
+    .tradicional h4{
+        opacity: 0;
+        z-index: -1;
+    }
+    .tradicional p{
+        left: 10%;
+        display: flex;
+        top: 26em;
+        position: absolute;
+        z-index: 1;
+    }
+    /*....completa.....*/
+    .completa img{
+        display: flex;
+        position: absolute;
+        margin-top: 29em;
+        margin-left: -36%;
+        z-index: 1;
+    }
+    .completa p{
+        display: flex;
+        left: 20%;
+        top: 43em;
+        position: absolute;
+    }
+    .completa h4{
+        opacity: 0;
+        z-index: -1;
+    }
+    /*...........lanona.............*/
+    .lanona img{
+        display: flex;
+        position: absolute;
+        margin-top: 280%;
+        margin-left: -66%;
+        z-index: 1;
+    }
+    .lanona p{
+        display: flex;
+        left: -30%;
+        position: absolute;
+        top: 56em;
+    }
+    .lanona h4{
+        opacity: 0;
+        z-index: -1;
     } 
-    .titulo2 {
-        font-size: 2%;
-        margin-left: 12%;
+    /*..........3quesos..............*/
+    .quesos img {
         display: flex;
         position: absolute;
+        margin-top: 60em;
+        margin-left: -7%;
+        z-index: 1;
     }
-    ul { 
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-        font-size: 8%;
+    .quesos p{
         display: flex;
-        margin-left: 28%;
-        margin-top: 8%;
-        float: left;
+        left: 3em;
+        top: 70em;
         position: absolute;
+        z-index: 1;
     }
-    .presentacion {
-        background-color: #A39A91;
-        background-size: 100%;
-        width: 100%;
-        display: flex;
-    }  
-    .info h3 {
-        font-size: 300%;
-        display: flex;
-        text-align: center;
-        left: 17%;
-        margin-top: 33%;
+    .quesos h4{
+        opacity: 0;
+        z-index: -1;
     }
-    .info p{
-        display: flex;
-        font-size: 100%;
-        left: 25%;
-        margin-top: 10%;
-        padding: 2% 10%;
-    }
-    .fotoinfo {
-        margin-top: 27%;
-        left: -5%;
-        width: 80%;
-        height: 90%;
-    }
-    .alternativa {
-        display: flex;
-    }
-    .alternativa h3{
-        font-size: 300%;
-        display: flex;
-        text-align: center;
-        margin-left: -30%;
-        margin-top: 30%;
-        position: absolute;
-    }
-    .alternativa p{
-        font-size: 100%;
-        display: flex;
-        left: -75%;
-        top: 10%;
-        position: absolute;
-        padding: 2% 55%;
-    }
-    .fondo {
-        margin-top: 29%;
-        width: 40%;
-        height: 50%;
-        display: flex;
-        margin-left: 45%;
-    }
-    .lista {
+    /*.........doble...................*/
+    .doble img{
         display: flex;
         position: absolute;
-        top: 60%;
-        left: 12%;
+        margin-top: 92em;
+        margin-left: -37%;
+        z-index: 1;
     }
-    .horarios {
+    .doble p{
+        display: flex;
+        top: 89em;
+        z-index: 1;
+        left: -8%;
+    }
+    .doble h4{
+        opacity: 0;
+        z-index: -1;
+    }
+    /*..........recargada...................*/
+    .recargada img{
         display: flex;
         position: absolute;
-        top: 350%;
+        margin-top: 122em;
+        margin-left: -67%;
+        z-index: 1;
     }
-    .horarios h2{
+    .recargada p{
         display: flex;
-        top: 340%;
+        top: 105em;
+        left: -30%;
     }
-    .horarios p{
-        display: flex;
-        position: absolute;
-        top: 18%;
+    .recargada h4{
+        opacity: 0;
+        z-index: -1;
     }
-    .ubicacion {
-        display: flex;
-        position: absolute;
-        top: 360%;
-    }
-    footer {
+    /*............footer.......................*/
+    footer{
         display: flex;
         position: absolute;
-        background-size: cover;
-        width: auto;
-        height: 100%;
+        padding-bottom: 0;
         margin-bottom: 0;
+        margin-top: 2900px;
+    }
+    .redes {
+        margin-bottom: -8%;
+        display: flex;
+        position: absolute;
+        margin-left: -260%;
+    }
+    .numeros {
+        display: flex;
+        position: absolute;
+        left: -80%;
+        top: 0.7em;
+    }
+    .items{
+        display: flex;
+        position: absolute;
+        left: -10%;
+        top: 3em;
+    }
+    .portfolio {
+        opacity: 0;
+        z-index: -1;
     }
 }
+
 /*CSS*/
 body {
     margin: 0;
@@ -169,11 +231,11 @@ li a{
 nav {
     display: flex;
     position: absolute;
-    top: 90%;
+    top: 45%;
     width: 100%;
     text-align: center;
     z-index: 1;
-    margin-left: -57.7%;
+    margin-left: 0;
 }
 /*....................................... BODY...................................... */
 body {
@@ -226,8 +288,8 @@ body {
 }
 .tradicional p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 8%;
+    font-size: 2em;
+    margin-left: 10%;
     margin-top: 18%;
     padding-right: 70%;
 
@@ -261,9 +323,9 @@ body {
 }
 .completa p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    left: 39%;
-    margin-top: -8%;
+    font-size: 2em;
+    left: 40%;
+    margin-top: -6%;
     padding-right: 40%;
     z-index: 1;
     display:flex;
@@ -298,9 +360,9 @@ body {
 }
 .lanona p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 67%;
-    margin-top: -10%;
+    font-size: 2em;
+    margin-left: 69%;
+    margin-top: -9%;
     padding-right: 10%;
     position: absolute;
     
@@ -336,7 +398,7 @@ body {
 }
 .quesos p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     margin-left: 10%;
     margin-top: 17%;
     padding-right: 70%;
@@ -371,7 +433,7 @@ body {
 }
 .doble p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     margin-left: 39%;
     margin-top: -7.5%;
     padding-right: 38%;
@@ -410,8 +472,8 @@ body {
 }
 .recargada p{
     font-family: 'SansXHigh', sans-serif;
-    font-size: 1em;
-    margin-left: 68%;
+    font-size: 2em;
+    margin-left: 70%;
     margin-top: -8%;
     padding-right: 10%;
     position: absolute;
@@ -478,9 +540,9 @@ footer {
     left: 1255px;
     bottom: 10em;
 }
-.clima {
-    display: flex;
-    position: absolute;
-    left: 1245px;
-    bottom: 14em;
+.portfolio img{
+    width: 10%;
+    height: 20%;
+    margin-left: 0%;
+    margin-bottom: -40%;
 }
